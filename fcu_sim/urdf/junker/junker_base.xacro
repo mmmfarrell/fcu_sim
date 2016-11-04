@@ -243,7 +243,7 @@
   </gazebo>
 
   <!-- Gimbal -->
-  <xacro:include filename="$(find fcu_sim_plugins)/xacro/gimbal.xacro"/>
+  <!-- <xacro:include filename="$(find fcu_sim_plugins)/xacro/gimbal.xacro"/>
   <xacro:gimbal_ZENMUSE
     namespace="${namespace}"
     parent_link="${namespace}/base_link"
@@ -251,7 +251,7 @@
     pose_topic="${namespace}/gimbal/pose"
     command_topic="${namespace}/gimbal/control">
     <origin xyz="2 0 0" rpy="0 0 0"/>
-  </xacro:gimbal_ZENMUSE>
+  </xacro:gimbal_ZENMUSE> -->
 
   <!-- Airspeed -->
   <xacro:include filename="$(find fcu_sim_plugins)/xacro/airspeed.xacro"/>
